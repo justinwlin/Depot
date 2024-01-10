@@ -26,7 +26,7 @@ https://depot.dev/docs/guides/ephemeral-registry#pulling
 ```
 depot pull <build-id> -t <image-name>:<tag>
 ```
-Push to docker~
+Push to docker! (**THIS IS AMAZING** b/c what this means is you do not need to download to your own computer and get bottle-neck by your internet upload speed, rather you are relying on Depot's remote infrastructure)
 ```
 depot push <build-id> -t <image-name>:<tag>
 ```
