@@ -32,7 +32,7 @@ depot push <build-id> -t <image-name>:<tag>
 ```
 
 # Top Combined Command:
-Thus b/c push pushes to a remote infrastructure directly, I like to do the below:
+Thus b/c push pushes to a remote infrastructure directly, I like to do the below (sometimes I don't need the --save b/c I don't need to ephemeral registry and just want to push it directly after it builds).
 ```
 depot build -t justinwlin/fooocus:1.0 . --push --platform linux/amd64
 ```
