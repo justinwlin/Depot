@@ -47,5 +47,5 @@ depot build -t justinwlin/fooocus:1.0 . --push --platform linux/amd64 --save
 ```
 Or if I don't want to push and only keep it in the empheral registry:
 ```
-depot build -t justinwlin/fooocus:1.0 . --platform linux/amd64
+depot build -t justinwlin/fooocus:1.0 . --platform linux/amd64 --save
 ```
