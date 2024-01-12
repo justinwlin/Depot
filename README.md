@@ -1,6 +1,11 @@
 # Depot
 Tips on getting started with Depot
 
+## Quickstart Installation:
+https://depot.dev/docs/quickstart
+
+For me bc I am on Mac I just used the brew install.
+
 ## Top Commands:
 
 First one is the **build command**. Where you get started.
